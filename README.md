@@ -23,7 +23,7 @@ Aşağıdaki görselde il sınırları yer almaktadır, ancak il isimleri **gör
 
 
 - **TUR_adm1.***: Shapefile dosyaları (Türkiye illerinin coğrafi verisi).  
-- **`map_grouper.py` veya `.ipynb`**: GeoPandas kullanarak harita çizim ve renklendirme kodları.  
+- **`turkey_province_maps.ipynb`**: GeoPandas kullanarak harita çizim ve renklendirme kodları.  
 - **`turkiye_il_gruplari_isimsiz.svg`**: İsimsiz harita çıktısı.  
 - **`turkiye_il_gruplari_isimli.svg`**: İsimli harita çıktısı (isteğe bağlı).  
 
@@ -42,7 +42,7 @@ Aşağıdaki görselde il sınırları yer almaktadır, ancak il isimleri **gör
      conda install -c conda-forge geopandas matplotlib adjustText
      ```
 2. **Kodları çalıştırın**  
-   - `map_grouper.py` veya `.ipynb` dosyasını açın.  
+   - `turkey_province_maps.ipynb` dosyasını açın.  
    - Çalıştırmadan önce shapefile dosyanızın adını veya dizin yolunu doğru belirlediğinizden emin olun.
    - Kod çalıştıktan sonra `turkiye_il_gruplari_isimsiz.svg` benzeri bir çıktı üretecektir.
 
